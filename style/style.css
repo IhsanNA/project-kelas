@@ -1,7 +1,8 @@
 
 
 body {
-    background-color: rgb(11, 12, 12);
+    /* background-color: rgb(11, 12, 12); */
+    background-color: white;
 }
 
 .wrapper {
@@ -24,6 +25,29 @@ body {
 
 .navbar-brand, .offcanvas-title, .nav-link {
     color: azure;
+}
+
+
+
+.tree {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.tree ul {
+    padding-top: 20px;
+    position: relative;
+    transition: .5s;
+}
+
+.tree li {
+    display: inline-table;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 10px;
+    transition: .5s;
 }
 
 
