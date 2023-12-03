@@ -1,0 +1,29 @@
+
+
+body {
+    background-color: rgb(11, 12, 12);
+}
+
+.wrapper {
+    margin-top: 80px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 40px;
+}
+
+.landing {
+    margin-top: 55px;
+}
+
+.text-container {
+    color: azure;
+    margin-left: 20px;
+}
+
+.navbar-brand, .offcanvas-title, .nav-link {
+    color: azure;
+}
+
+
