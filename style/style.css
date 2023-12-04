@@ -201,3 +201,14 @@ body {
     letter-spacing: 1px;
     font-weight: 500;
 }
+
+.jadwal-matpel {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.header, .heading {
+    background-color: dark;
+    color: azure;
+}
