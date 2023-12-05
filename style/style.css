@@ -1,5 +1,4 @@
 
-
 body {
     background-color: rgb(11, 12, 12);
     display: grid;
@@ -9,6 +8,7 @@ body {
 
 .wrapper {
     margin-top: 80px;
+    margin-left: -125px;
 }
 
 .img-circle {
@@ -23,6 +23,8 @@ body {
 .text-container {
     color: azure;
     margin-left: 20px;
+    word-spacing: 10px;
+
 }
 
 .navbar-brand, .offcanvas-title, .nav-link {
@@ -211,4 +213,19 @@ body {
 .header, .heading {
     background-color: dark;
     color: azure;
+}
+
+.dropdown-menu {
+
+}
+
+.structure {
+    text-align: center;
+    color: azure;
+    margin-left: -40px;
+    
+}
+
+.paragraf {
+    margin-right: auto;
 }
