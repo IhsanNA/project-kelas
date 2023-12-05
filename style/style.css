@@ -32,7 +32,6 @@ body {
 }
 
 
-
 .tree {
     width: 100%;
     height: auto;
@@ -83,11 +82,6 @@ body {
     font-weight: 500;
 }
 
-
-
-
-
-
 .tree li:before, .tree li:after {
     content: '';
     position: absolute;
@@ -106,13 +100,10 @@ body {
 
 .tree li:only-child:after, .tree li:only-child:before{
     display: none;
-
-
 }
 
 .tree li:only-child {
     padding-top: 0;
-
 }
 
 .tree li:first-child:before, .tree li:last-child:after{
@@ -140,8 +131,6 @@ body {
 }
 
 /* Hover Section */
-
-
 .tree li a:hover, .tree li a:hover img, .tree li a:hover span, .tree li a:hover+ul li a {
     background: #c8e4f8;
     color: #000;
@@ -204,6 +193,9 @@ body {
     font-weight: 500;
 }
 
+
+
+
 .jadwal-matpel {
     width: 100%;
     height: auto;
@@ -215,10 +207,6 @@ body {
     color: azure;
 }
 
-.dropdown-menu {
-
-}
-
 .structure {
     text-align: center;
     color: azure;
@@ -226,6 +214,76 @@ body {
     
 }
 
-.paragraf {
-    margin-right: auto;
-}
+
+
+
+
+
+
+
+
+
+
+
+/* page container */
+#wrap { display: block; width: 850px; margin: 0 auto; padding-top: 35px; }
+
+
+
+
+
+/* tes */
+#dropdown { 
+    display: block;
+    padding: 13px 16px;
+    width: 266px;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+    border-left: 4px solid #739cda;
+    background: #fff;
+    font-size: 1.55em;
+    color: #656565;
+    font-weight: normal;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -ms-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+  }
+  #dropdown:hover { color: #898989; }
+  
+  #dropdown.open {
+    background: #5a90e0;
+    color: #fff;
+    border-left-color: #6c6d70;
+  }
+  
+  #dropdown ul { 
+    position: absolute;
+    top: 100%;
+    left: -4px; /* move content -4px because of container left border */
+    width: 266px;
+    padding: 5px 0px;
+    display: none;
+    border-left: 4px solid #8e9196;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  }
+  #dropdown ul li { font-size: 0.9em; }
+  
+  #dropdown ul li a { 
+    text-decoration: none;
+    display: block;
+    color: #447dd3;
+    padding: 7px 15px;
+  }
+  #dropdown ul li a:hover {
+    color: #6fa0e9;
+    background: #e7f0f7;
+  }
