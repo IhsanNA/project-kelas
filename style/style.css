@@ -200,17 +200,31 @@ body {
     
 }
 
-
 /* Tabel */
 .tabel-matpel {
     color: azure;
-    margin-left: -40px;
     display: flex;
     justify-content: center;
 }
 
 .tabel {
-    border: 1px;
-    tab-size: ;
+    border-collapse: collapse;
+    display: inline-table;
+    width: 65%;
+    height: 250px;
 }
+
+.tabel, th, td {
+    border: 1px solid azure;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
 
