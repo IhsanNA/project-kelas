@@ -193,20 +193,6 @@ body {
     font-weight: 500;
 }
 
-
-
-
-.jadwal-matpel {
-    width: 100%;
-    height: auto;
-    text-align: center;
-}
-
-.header, .heading {
-    background-color: dark;
-    color: azure;
-}
-
 .structure {
     text-align: center;
     color: azure;
@@ -214,7 +200,17 @@ body {
     
 }
 
-/* page container */
-#wrap { display: block; width: 850px; margin: 0 auto; padding-top: 35px; }
 
 /* Tabel */
+.tabel-matpel {
+    color: azure;
+    margin-left: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabel {
+    border: 1px;
+    tab-size: ;
+}
+
