@@ -1,0 +1,27 @@
+
+body {
+    background-color: rgb(11, 12, 12);
+}
+
+.header-text {
+    text-align: center;
+    color: azure;
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+.text {
+    text-align: center;
+    color: azure;
+    padding-top: 115px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    grid-row: 5px;
+}
+
+
