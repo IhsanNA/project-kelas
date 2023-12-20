@@ -10,18 +10,23 @@ body {
     padding-top: 50px;
 }
 
+.container {
+    display: grid;
+    justify-content: center;
+}
+
 .text {
     text-align: center;
     color: azure;
-    padding-top: 115px;
 }
 
-.container {
-    text-align: center;
-}
-
-.container img {
-    grid-row: 5px;
+.foto, img{
+    height: 100;
+    width: 700;
+    border-radius: 15px;
+    margin: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 
