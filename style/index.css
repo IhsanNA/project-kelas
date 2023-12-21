@@ -8,7 +8,7 @@ body {
 
 .wrapper {
     margin-top: 80px;
-    margin-left: -125px;
+    margin-left: -100px;
 }
 
 .img-circle {
@@ -34,9 +34,9 @@ body {
 
 .tree {
     width: 100%;
-    height: auto;
-    margin-left: 250px;
+    height: 100%;
     margin-top: 1rem;
+    text-align: center;
 }
 
 .tree ul {
@@ -51,6 +51,13 @@ body {
     list-style-type: none;
     position: relative;
     transition: .5s;
+    margin: 5px;
+    right: 9px;
+   
+}
+
+.tree h5 {
+    color: grey;
 }
 
 .tree a {
@@ -82,70 +89,15 @@ body {
     font-weight: 500;
 }
 
-.tree li:before, .tree li:after {
-    content: '';
-    position: absolute;
-    top: 0%;
-    right: 50%;
-    border-top: 1px solid #ccc;
-    width: 51%;
-    height: 10px;
-}
-
-.tree li:after{
-    right: auto;
-    left: 50%;
-    border-left: 1px solid #ccc;
-}
-
-.tree li:only-child:after, .tree li:only-child:before{
-    display: none;
-}
-
-.tree li:only-child {
-    padding-top: 0;
-}
-
-.tree li:first-child:before, .tree li:last-child:after{
-    border: 0 none;
-}
-
-.tree li:last-child:before {
-    border-right: 1px solid #ccc;
-    border-radius: 0px 5px 0px 0px;
-}
-
-.tree li:first-child:after {
-    border-radius: 0px 5px 0px 0px;
-}
-
-
-.tree ul ul:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    border-left: 1px  solid #ccc;
-    width: 0;
-    height: 20px;
-}
-
-/* Hover Section */
-.tree li a:hover, .tree li a:hover img, .tree li a:hover span, .tree li a:hover+ul li a {
-    background: #c8e4f8;
-    color: #000;
-    border: 1px solid #94a0b4;
-    box-shadow: 0px 0px 0px 0px #5f5f5f;
-}
-
-.tree li a:hover+ul li:after, tree li a:hover+ul li:before, tree li a:hover+ul:before, .tree li a:hover+ul ul:before {
-    border-color: #94a0b4 ;
+.text-anggota {
+    text-align: center;
+    color: grey;
 }
 
 /* anggota */
 .tree2 {
     width: 100%;
-    height: auto;
+    height: 100%;
     text-align: center;
     margin-top: 1rem;
 }
@@ -196,8 +148,6 @@ body {
 .structure {
     text-align: center;
     color: azure;
-    margin-left: -40px;
-    
 }
 
 /* Tabel */
