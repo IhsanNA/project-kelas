@@ -4,6 +4,8 @@ body {
     display: grid;
     align-items: center;
     height: 100vh;
+    font-family: 'Arial', sans-serif;
+    
 }
 
 .wrapper {
@@ -173,8 +175,9 @@ th, td {
 
 @media (min-width: 768px) {
     .wrapper {
-        margin-top: 40px;
+        margin-top: 90px;
         margin-left: 0;
+        margin-right: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -184,13 +187,19 @@ th, td {
     .img-circle {
         margin: 10px;
     }
+
+    .text-container{
+        text-align: center;
+
+    }
 }
 
 /* Media Queries */
 @media only screen and (max-width: 320px) {
     /* Styles for devices with a screen width of 320px or less */
     .wrapper {
-        margin-left: 0;
+        margin-left: 150px;
+        margin-right: 150px;
         text-align: justify;
         
     }
@@ -200,10 +209,20 @@ th, td {
         text-align: center;
     }
 
+
 }
 
 @media only screen and (min-width: 321px) and (max-width: 375px) {
-    .tree{
+    .wrapper{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .text-container{
+        text-align: center;
+    }
+
+    .text-anggota {
         text-align: center;
         display: block;
     }
@@ -211,21 +230,65 @@ th, td {
 }
 
 @media only screen and (min-width: 376px) and (max-width: 425px) {
-    /* Styles for devices with a screen width between 376px and 425px */
-    /* Add your specific styles here */
+    .wrapper{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .text-container{
+        text-align: center;
+    }
+
+    .text-anggota {
+        text-align: center;
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-    /* Styles for devices with a screen width between 426px and 768px */
-    /* Add your specific styles here */
+    .wrapper{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .text-container{
+        text-align: center;
+    }
+
+    .text-anggota {
+        text-align: center;
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for devices with a screen width between 769px and 1024px */
-    /* Add your specific styles here */
+    .wrapper{
+        margin-left: 150px;
+        margin-right: 150px;
+    }s
+
+    .text-container{
+        text-align: center;
+    }
+
+    .text-anggota {
+        text-align: center;
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    /* Styles for devices with a screen width between 1025px and 1440px */
-    /* Add your specific styles here */
+    .wrapper{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .text-container{
+        text-align: center;
+    }
+
+    .text-anggota {
+        text-align: center;
+        display: block;
+    }
 }
