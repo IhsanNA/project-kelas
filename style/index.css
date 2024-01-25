@@ -198,14 +198,17 @@ th, td {
 @media only screen and (max-width: 320px) {
     /* Styles for devices with a screen width of 320px or less */
     .wrapper {
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 185px;
         text-align: justify;
         
     }
 
     .text-container {
         margin-left: 10px;
+        text-align: center;
+    }
+    .tree2 {
+        align-items: center;
         text-align: center;
     }
 
@@ -292,3 +295,6 @@ th, td {
         display: block;
     }
 }
+
+
+
