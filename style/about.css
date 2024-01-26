@@ -1,0 +1,14 @@
+body{margin: 0;}
+.kotak{
+top: 0; bottom: 0; left: 0; right: 0; position: absolute;/*ini membuat backgroud full*/
+background: linear-gradient(to bottom right, #000000, #545454, #ff0400);
+animation: ganti-warna 10s ease infinite; 
+background-size: 300% 300%;
+}
+
+@keyframes ganti-warna{
+0%{background-position: 0% 50%;}
+50%{background-position: 100% 50%;}
+100%{background-position: 0% 50%;}
+}
+h1{color: white; position: relative; text-align: center;}
