@@ -22,6 +22,24 @@ body {
     margin-top: 55px;
 }
 
+.text-container h3 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      height: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      height: 100%;
+    }
+  }
+  
+
 .text-container {
     color: azure;
     margin-left: 20px;
@@ -33,11 +51,10 @@ body {
     color: azure;
 }
 
-
 .tree {
     width: 100%;
     height: 100%;
-    margin-top: 1rem;
+    margin-top: 5rem;
     text-align: center;
 }
 
@@ -145,10 +162,28 @@ body {
     font-weight: 500;
 }
 
+
 .structure {
     text-align: center;
     color: azure;
 }
+
+.tabel-matpel {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-bottom: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-bottom: 0%;
+      width: 100%;
+    }
+  }
 
 /* Tabel */
 .tabel-matpel {
@@ -157,12 +192,15 @@ body {
     justify-content: center;
 }
 
+
 .tabel {
     border-collapse: collapse;
     display: inline-table;
     width: 65%;
     height: 250px;
 }
+
+
 
 .tabel, th, td {
     border: 1px solid azure;
