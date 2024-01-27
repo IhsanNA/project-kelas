@@ -19,7 +19,7 @@ body {
 }
 
 .img-circle {
-    animation: slide-img 1s both;
+    animation: slide-img 2s both;
 }
 
 @keyframes slide-img {
@@ -37,11 +37,26 @@ body {
     margin-top: 55px;
 }
 
-.text-container {
-    animation: slide-in-h3 1s both;
+.text-container h3 {
+    animation: slide-in-h3 3s both;
 }
 
 @keyframes slide-in-h3 {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}  
+
+.text-container h6 {
+    animation: slide-in-h6 3s both;
+}
+
+@keyframes slide-in-h6 {
     0% {
         transform: translateX(-1000px);
         opacity: 0;
@@ -63,8 +78,8 @@ body {
     color: azure;
 }
 
-.tree {
-    animation: slide-tree 1s both;
+.tree, .tree2 {
+    animation: slide-tree 2s both;
 }
 
 @keyframes slide-tree {
@@ -202,8 +217,7 @@ body {
   
   @keyframes slidein {
     from {
-      margin-bottom: 100%;
-      width: 300%;
+
     }
   
     to {
