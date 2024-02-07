@@ -1,8 +1,19 @@
-#images{
-  position: absolute;
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#hero{
+  font-family: 'Arial', sans-serif;
+}
+
+.images{
+  padding-left: 110px;
+  margin: 20px;
+  position:absolute;
   top: 0;
   left: 0;
-  max-width: 100%;
+  object-fit: cover;
   z-index: -2;
   filter: brightness(50%);
 }
@@ -665,3 +676,8 @@ th, td {
   }
 }
 
+/* Resposive  style for mobile devices  */
+
+/* @media screen and (max-width = 600px){
+
+} */
