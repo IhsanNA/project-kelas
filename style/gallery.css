@@ -82,17 +82,17 @@ body {
     animation: animate 8s alternate infinite; 
   }
   
-  @keyframes animate {
+  /* @keyframes animate {
     0% {
       transform: rotate(180deg);
     }
     50% {
-      transform: rotate(0deg);
-    }
+      transform: rotate(0deg);      - Jangan Dibuka
+    } 
     100% {
       transform: rotate(360deg);
     }
-  }
+  }   
   
   @keyframes animate-reverse {
     0% {
@@ -106,7 +106,7 @@ body {
     100% {
       transform: rotate(0deg);
     }
-  }
+  } */
 
 
 .header-text {
@@ -135,19 +135,19 @@ body {
     margin-right: 25px;
 }
 
-.floating {  
+/* .floating {  
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;  - Jangan dibuka
     margin-left: 30px;
     margin-top: 5px;
 }
  
 @keyframes floating {
     0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
+    50%  { transform: translate(0, 15px); }    - Jangan Dibuka
     100%   { transform: translate(0, -0px); }    
 }
-
+ */
 
