@@ -6,6 +6,7 @@ body {
     height: 100vh;
     font-family: 'Arial', sans-serif;
 }
+<<<<<<< Updated upstream
 
   .glowing {
     position: relative;
@@ -111,6 +112,8 @@ body {
       transform: rotate(0deg);
     }
   }
+=======
+>>>>>>> Stashed changes
 
 .wrapper {
     margin-top: 80px;
